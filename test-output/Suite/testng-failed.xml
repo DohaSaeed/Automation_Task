@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <test name=" Regression Test(failed)">
+    <classes>
+      <class name="Tests.OrderTest">
+        <methods>
+          <include name="SelectionOfCategoryTest"/>
+          <include name="createUserAccountTest" invocation-numbers="0"/>
+          <include name="config"/>
+          <include name="screenshotOnFailure"/>
+          <include name="checkOutTest"/>
+          <include name="validationOrderTest"/>
+          <include name="beforClass"/>
+        </methods>
+      </class> <!-- Tests.OrderTest -->
+    </classes>
+  </test> <!--  Regression Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
